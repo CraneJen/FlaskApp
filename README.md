@@ -2,8 +2,9 @@
 A simple project built with flask
 
 
-DATABASE Postgresql
-TABLE users:
+### DATABASE Postgresql  
+TABLE users  
+```
 CREATE TABLE users (
     id serial,
     name varchar(100),
@@ -12,3 +13,4 @@ CREATE TABLE users (
     password varchar(100) not null,
     PRIMARY KEY(id, username)
     )
+```
